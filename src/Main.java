@@ -3,3 +3,13 @@ public class Main {
         System.out.println("Hello world!");
     }
 }
+
+public class Bicycle {
+
+    public String modelName;
+    public int wheelsCount;
+
+    public void updateTyre() {
+        System.out.println("Меняем покрышку");
+    }
+}
